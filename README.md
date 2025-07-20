@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://akka.io/resources/images/akka_full_color.svg" alt="Akka Logo" height="80"/>
+  <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Akka_toolkit_logo.svg" alt="Akka Logo" height="80"/>
   <img src="https://www.scala-lang.org/resources/img/frontpage/scala-spiral.png" alt="Scala Logo" height="80"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/SBT_Logo.svg" alt="SBT Logo" height="80"/>
   <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.png" alt="IntelliJ Logo" height="80"/>
 </p>
 
