@@ -7,7 +7,7 @@ class DbContext(context: ActorContext[DBMessage]) extends AbstractBehavior(conte
 
   override def onMessage(msg: DBMessage): Behavior[DBMessage] = msg match {
     case DBMessage(name,document) =>
-      context.log.info(s"[API] message $msg received and sended to Api")
+      context.log.info(s"[DB says => ] message $msg received and stored")
       this
   }
 }

@@ -11,7 +11,7 @@ object APIActor {
 
     Behaviors.receive{
       (ctx , msg) =>
-        ctx.log.info(s"[API] message $msg received and sended to Api ")
+        ctx.log.info(s"[API] message $msg received and sended to DB ")
         refActorDB ! DBMessage(name = msg.name, document = msg.document)
         Behaviors.same
 
